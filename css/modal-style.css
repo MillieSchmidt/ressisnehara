@@ -1,0 +1,35 @@
+.modal-temp {
+    position: sticky;
+    top: 30%;
+    right: 22.5%;
+    width: 55%;
+    padding: 1rem;
+    background-color: rgb(37, 37, 37, 0.9);
+    border-radius: 2rem;
+    box-shadow: 5px 5px 5px rgb(37, 37, 37, 0.5);
+}
+
+.modal-top {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.cancel {
+    align-self: flex-start;
+    font-size: 2rem;
+    padding-right: 1rem;
+}
+
+.cancel:hover {
+    cursor: pointer;
+}
+
+.modal-bottom {
+    padding-bottom: 1rem;
+}
+
+.modal-bottom p {
+    margin: 0;
+}

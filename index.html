@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>הוצאת רסיס נהרה</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/modal-style.css">
+</head>
+<body>
+    <div id="progress"></div>
+    <div style="height: 6em">
+        <nav class="navbar navbar-expand-xs navbar-expand-sm navbar-light bg-success fixed-top px-3">
+            <a class="nav-item" id="special">ניווט</a>
+            <button class="navbar-toggler" type="button" style="background-color: rgb(248, 249, 250)" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon" style="background-color: rgb(248, 249, 250)"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#page-top"><span class="color">מי אנחנו?</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#books"><span class="color">ספרים</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="blog.html"><span class="color">בלוג</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><span class="color">ביקורות</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html"><span class="color">צור קשר</span></a>
+                </li>
+              </ul>
+            </div>
+            <img class="float-start navbar-logo" src="./images/LogoForDark.jpg">
+        </nav>
+    </div>
+
+    <div class="modal-temp" id="modal">
+        <div class="modal-top">
+            <div class="cancel" id="cancel">
+                <div>&times;</div>
+            </div>
+            <h3>אתר זה נמצא בבנייה!</h3>
+        </div>
+        <div class="modal-bottom">
+            <p>ברוכים הבאים לאתר המתחדש של הוצאת רסיס נהרה!</p>
+            <p>בקרוב נמלא את האתר בתכנים ובספרים, כולל הוראות מדויקות לשליחת כתבי יד.</p>
+            <p>תודה על הסבלנות!</p>
+        </div>
+    </div>
+
+    <div class="container-fluid d-flex flex-column align-items-center first" id="page-top">
+        <div class="p-4" style="max-width: 70%">
+            
+                <div class="">
+                    <img class="logo" src="./images/LogoForDark.jpg">
+                    <h4>הוצאת רסיס נהרה</h4>
+                    <p>הוצאה לאור קטנה, הנמצאת במדרשת בן גוריון וכל הרפתקאותיה</p>
+                    <p>הוצאת רסיס נהרה הוקמה ביוני 2007. אז יצאה לאור המהדורה הראשונה של הספר כתר מלכות מאת אורי מאיר. באוקטובר 2007, יצאה לאור המהדורה השנייה של הספר, הנמצאת כעת בחנויות.
+                    באוקטובר 2008, הגיעו שני הספרים לגמר של פרס גפן- פרס שנתי המוענק לספרי מדע בדיוני ופנטזיה מקוריים, בנוסף לקטגוריות אחרות.
+                    בדצמבר 2008 החלו ספרי ההוצאה להיות מופצים בחנויות בצורה מסודרת.</p>
+                    <div id="books"></div>
+                </div>
+            
+        </div>
+    </div>
+
+    <div class="container-fluid d-flex flex-column align-items-center second">
+        <div class="p-4" style="max-width: 70%">
+            <div class="">
+                <h4 class="mb-4">הספרים שלנו</h4>
+                <div class="pagination">
+                    <!-- <a href="ketermalchut.html"><img src="keter_malchut.jpg" alt="כתר מלכות"></a> -->
+                    <a href="ketermalchut.html" target="_new"><img src="./images/keter_malchut.jpg" alt="כתר מלכות">
+                        כתר מלכות
+                    </a>
+                    <a href="evenhashtiya.html" target="_new"><img src="./images/soon.jpg" alt="חידת אבן השתייה">
+                        חידת אבן השתייה
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="container-fluid third d-flex flex-column align-items-center">
+        <div class="blog-container p-4" style="max-width: 70%">
+            <h4>הבלוג</h4>
+            <p>בקרוב...</p>
+        </div>
+    </div> -->
+    
+    <footer class="container-fluid bg-success text-light">
+        <div class="row">
+            <div class="col my-3">
+                כל הזכויות שמורות © הוצאת רסיס נהרה
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <script src="modal-script.js"></script>
+</body>
+</html>

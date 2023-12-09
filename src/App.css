@@ -62,7 +62,6 @@ body {
   letter-spacing: 0;
   font-size: 3rem;
   color: var(--aliceblue);
-  border: 0px solid yellow;
 }
 
 .site-subtitle {
@@ -70,7 +69,6 @@ body {
   letter-spacing: 0;
   font-size: 2rem;
   color: var(--aliceblue);
-  border: 0px solid brown;
 }
 
 .content {
@@ -78,7 +76,6 @@ body {
   width: 100%;
   margin: 0 auto;
   padding: 3rem;
-  border: 3px solid pink;
 }
 
 .all-books {
@@ -86,14 +83,12 @@ body {
   width: 100%;
   margin: 0 auto;
   text-align: center;
-  border: 2px solid green;
 }
 
 .book {
   display: inline-block;
   width: 40%;
   padding: 1rem;
-  border: 1px solid purple;
   text-decoration: none;
 }
 
@@ -117,7 +112,6 @@ body {
 }
 
 .book-wrapper {
-  border: 2px solid green;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -125,7 +119,6 @@ body {
 }
 
 .book-content {
-  border: 1px solid purple;
   display: flex;
   flex: row;
   align-items: center;
@@ -134,13 +127,11 @@ body {
 
 .book-cover {
   width: 100%;
-  border: 2px solid red;
 }
 
 .book-description {
   padding: 0.5rem 6rem;
   text-align: center;
-  border: 1px solid red;
 }
 
 .buy button {
@@ -158,7 +149,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid blue;
 }
 
 .bookpage {
@@ -214,4 +204,12 @@ img {
   color: var(--darkalice);
   text-align: center;
   border-top: 3px solid var(--darkalice);
+}
+
+.notice {
+  width: 100%;
+  background-color: lightcoral;
+  text-align: center;
+  color: var(--dark);
+  font-size: 2rem;
 }

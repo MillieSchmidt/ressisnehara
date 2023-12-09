@@ -1,0 +1,217 @@
+:root {
+  --aliceblue: rgb(240, 248, 255);
+  --darkalice: rgb(163, 155, 155);
+  --branch: rgb(2,27,6);
+  --dark: rgb(39, 39, 39);
+  --leaves: rgb(193,224,119);
+  --bright: rgb(250, 208, 20);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: border-box;
+  direction: rtl;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: var(--aliceblue);
+  letter-spacing: 0.2rem;
+  color: var(--dark);
+  overflow-x: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 3.5rem;
+}
+
+.navigation {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  padding-top: 1rem;
+  background-color: var(--branch);
+  color: var(--aliceblue);
+  text-align: center;
+  z-index: 9999;
+}
+
+.link {
+  margin: 0 0.8rem;
+  color: var(--aliceblue);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header {
+  height: 17rem;
+  padding: 1rem;
+  margin-top: 50px;
+  background-image: url(../public/images/background_leaves.jpg);
+  background-position-y: -8rem;
+  box-shadow: -10px 3px 20px -5px var(--dark);
+}
+
+.site-title {
+  display: inline;
+  letter-spacing: 0;
+  font-size: 3rem;
+  color: var(--aliceblue);
+  border: 0px solid yellow;
+}
+
+.site-subtitle {
+  display: inline;
+  letter-spacing: 0;
+  font-size: 2rem;
+  color: var(--aliceblue);
+  border: 0px solid brown;
+}
+
+.content {
+  display: inline-block;
+  width: 100%;
+  margin: 0 auto;
+  padding: 3rem;
+  border: 3px solid pink;
+}
+
+.all-books {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  border: 2px solid green;
+}
+
+.book {
+  display: inline-block;
+  width: 40%;
+  padding: 1rem;
+  border: 1px solid purple;
+  text-decoration: none;
+}
+
+.book-box {
+  color: var(--dark);
+  text-decoration: none;
+}
+
+.book img {
+  margin: 10px;
+  margin-bottom: 40px;
+  width: 160px;
+  height: 220px;
+  transition: 1s;
+  box-shadow: -10px 10px 20px -5px var(--dark);
+}
+
+.book img:hover {   
+  transform: scale(1.3);
+  cursor: pointer;
+}
+
+.book-wrapper {
+  border: 2px solid green;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.book-content {
+  border: 1px solid purple;
+  display: flex;
+  flex: row;
+  align-items: center;
+  padding: 0 7rem;
+}
+
+.book-cover {
+  width: 100%;
+  border: 2px solid red;
+}
+
+.book-description {
+  padding: 0.5rem 6rem;
+  text-align: center;
+  border: 1px solid red;
+}
+
+.buy button {
+  margin-top: 1.8rem;
+  padding: 0.5rem 1.2rem;
+  background-color: var(--bright);
+  text-align: center;
+  font-size: large;
+  border: 1px solid var(--dark);
+  border-radius: 1.9rem;
+  cursor: pointer;
+}
+
+.publish, .contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid blue;
+}
+
+.bookpage {
+  margin-top: 0;
+}
+
+.bookname {
+    margin-top: 100px;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+
+.content {
+    text-align: right;
+    padding: 0 30px;
+    margin-top: 20px;
+    height: 450px;
+    display: flex;
+}
+
+.bookname h1 {
+    text-align: center;
+}
+
+img {
+    margin: 0 auto;
+    width: 270px;
+    height: 400px;
+}
+
+.content p {
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 0 30px;
+}
+
+.links a {
+    color: black;
+    text-decoration: underline;
+}
+
+.links a:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem;
+  color: var(--darkalice);
+  text-align: center;
+  border-top: 3px solid var(--darkalice);
+}
